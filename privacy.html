@@ -1,0 +1,40 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="description" content="How EasyAlbum uses Google account, Google Drive, contact, and album data.">
+<title>Privacy policy | EasyAlbum</title>
+<link rel="icon" type="image/png" href="assets/logo.png">
+<link rel="stylesheet" href="assets/site.css">
+</head>
+<body>
+<header class="wrap mast">
+  <a class="wordmark" href="./"><img class="mark" src="assets/logo.png" width="36" height="36" alt="">EasyAlbum</a>
+  <nav aria-label="Main"><a href="privacy.html" aria-current="page">Privacy policy</a><a href="terms.html">Terms</a></nav>
+</header>
+<main class="wrap legal">
+  <h1>Privacy policy</h1>
+  <p class="lead">This policy explains how EasyAlbum handles data when you sign in, link storage, and share photos in the Android app.</p>
+
+  <h2>Google sign-in and profiles</h2>
+  <p>EasyAlbum uses your Google account identifier and verified email to sign you in and associate your account with albums. You choose an EasyAlbum username. If Google provides a display name or profile photo, EasyAlbum can show them alongside your username and role to people with access to the same album. Email addresses are used to match contact invitations to Google accounts.</p>
+
+  <h2>Google Drive access</h2>
+  <p>Linking a Drive is a separate step. EasyAlbum uses the <code>drive.appdata</code> permission to store, read, edit, and remove files it manages in its hidden app-data folder, and checks available Drive storage for uploads and transfers. You can choose a linked Drive for new uploads or offer that Drive to an album. If you migrate photos, EasyAlbum copies them to the destination and removes the source copies when you choose that option.</p>
+  <p>The backend stores encrypted Drive refresh tokens so authorized album participants can access shared photos while the Drive owner is offline. Photo bytes pass through the backend to provide uploads, previews, edits, downloads, and migrations. Operations can use temporary files for processing. Albums, access roles, Drive references, and photo metadata are stored on the backend.</p>
+
+  <h2>Photos, metadata, and sharing</h2>
+  <p>EasyAlbum reads information embedded in photos, which can include capture time, camera settings, and GPS coordinates. People with album access can see photo previews and available details. Members can download originals, and recipients can keep copies they have saved. Album owners can assign Viewer or Member access.</p>
+  <p>When you choose <strong>Add from contacts</strong>, Android lets you pick a contact email. EasyAlbum reads the selected contact’s name and email for the invitation screen. After you confirm, the backend uses the selected email and role to grant album access when the recipient signs in with that Google account.</p>
+
+  <h2>Data use and retention</h2>
+  <p>EasyAlbum uses Google user data to provide its sign-in, photo storage, sharing, and editing features. EasyAlbum does not sell Google user data, use it for advertising, or use it to train generalized AI or machine learning models. Its use and transfer of information received from Google APIs follows the <a href="https://developers.google.com/terms/api-services-user-data-policy">Google API Services User Data Policy</a>, including the Limited Use requirements.</p>
+  <p>Album records and credentials can persist after you sign out. You can revoke EasyAlbum’s Drive permission in your <a href="https://myaccount.google.com/connections">Google Account connections</a>. Revoking access stops EasyAlbum from using the revoked permission. You can manage or delete EasyAlbum’s stored app data in Google Drive. Removing that data can make shared photos unavailable.</p>
+
+  <h2>Contact</h2>
+  <p>For privacy questions or requests to delete account information, use the support email shown on EasyAlbum’s Google consent screen.</p>
+</main>
+<footer class="wrap foot"><a class="wordmark" href="./">EasyAlbum</a><nav aria-label="Footer"><a href="privacy.html">Privacy policy</a><a href="terms.html">Terms of service</a></nav></footer>
+</body>
+</html>
